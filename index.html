@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="my.css" />
+
+
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.topnav-wrapper {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2efef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.96;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/ciber-city.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("images/workstation.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/Post_Digital.jpg");
+  min-height: 400px;
+  color:#282E34 ;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: rgb(242, 236, 236);
+}
+
+body {
+	background: #1a2a32f9;  /* Set background color to #263238*/
+}
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #324a5b;
+    background-color: rgb(18, 31, 33);
+	border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(252, 249, 249);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: #6aaed3;
+	margin: 0 auto;
+	outline: 0;
+	color: rgb(64, 120, 128);
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: rgb(140, 205, 215);
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+nav.page-navigation {
+    width: 80px;
+    background-color: #ebebeb;
+    position: fixed;
+    top:10%;
+    left:0;
+}
+nav.page-navigation li {
+    width: 100%;
+}
+nav.page-navigation a {
+    padding: 0.6em 10%;
+    width: 80%;
+}
+</style>
+</head>
+<body>
+  <div id="top"></div>
+  
+<nav class="topnav">
+  <ul class="menu">
+  <a class="top" href="index.html">Home</a>
+  <a href="#section-one">About</a>
+  <a href="#section-two">Technology Experience</a>
+  <a href="#section-three">Projects</a>
+  <a href="#section-four">Contact</a> 
+</ul>
+</nav>
+
+
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">NEW WEB DEVELOPER</span>
+  <p style="color:rgba(255, 255, 255, 0.784);">Sean K. Lawless</p>
+  </div>
+</div>
+
+<div id="section-one" class="gd-section pad-large"> 
+<div style="color: rgb(10, 9, 9);background-color:rgb(97, 172, 201);text-align:center;padding:30px 30px;text-align: justify;">
+  <h3 style="text-align:center;">About Me</h3>
+  <p>New Web Developer seeking a career in the Web Development industry. My background originated in the televisio industry,
+     anywhere from Videography, Cinematography, and Content Editor. I love creating and look forward in an opportunity 
+      to work with other developers in designing websites for clients.</p>
+</div>
+
+<div id="section-two" class="gd-section pad-large"> 
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">TECHNOLOGY EXPERIENCES</span>
+  </div>
+</div>
+
+<section>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="#"><img id="logo" src="images/bootstrap-social-logo.png" width="140" height="131" alt="bootstrap-social-logo"></a>
+  <a href="#"><img id="logo" src="images/html-logo.png" width="140" height="131" alt="html-social-logo"></a>
+  <a href="#"><img id="logo" src="images/CSS3_logo.png" width="140" height="131" alt="css-social-logo"></a>
+  <a href="#"><img id="logo" src="images/after-effects.png" width="140" height="131" alt="after-effects-social-logo"></a>
+  <a href="#"><img id="logo" src="images/react-native-workshop.jpg" width="140" height="131" alt="react-native-logo"></a>
+  <a href="#"><img id="logo" src="images/react.webp" width="140" height="131" alt="react-social-logo"></a>
+  <a href="#"><img id="logo" src="images/mongodb-logo-1.png" width="140" height="131" alt="mongo-social-logo"></a>
+  <a href="#"><img id="logo" src="images/github.jpg" width="140" height="131" alt="github-social-logo"></a>
+</div>
+</section>
+</div>
+
+<div id="section-three" class="gd-section pad-large"> 
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PROJECTS</span>
+  <a href=" https://the-bakeshop.netlify.app/" class="button" style="background-color:transparent;font-size:15px;color: #f7f7f7;"> view projects</a>  
+</div>
+</div>
+
+
+<div id="section-four" class="gd-section pad-large"> 
+<div class="container">
+	<h3>Contact Me</h3>
+	<form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder=""/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder=""/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder=""/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
+</div>
+
+<a name="top"></a>
+<a href="#top" style="background-color:transparent;font-size:15px;color: #fefefe;">Back to Top</a>
+
+
+ 
+
+</body>
+</html>
